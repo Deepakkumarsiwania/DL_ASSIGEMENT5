@@ -13,3 +13,17 @@ Answer:
 6 batch_size = 64
 image_size = 64
 7.loss_D and loss _G
+1.we git clone the style Gan
+2. Provide the see from the generation of image seed 0-5
+3.Then we get the random images
+
+Part2:
+nowTake your face image and 5 different face images of your friends (One image per friend).
+Perform feature disentanglement and linear interpolation between your face and your
+friend's face.
+1.first we taken image source and  target image of five friends
+2.we preprocess the image for the best out put in in styleGan
+3.plot the images  source and target images
+4.convert target to a GAN and source to GAN
+5.create the video and divide it into the frames.
+Image are:
